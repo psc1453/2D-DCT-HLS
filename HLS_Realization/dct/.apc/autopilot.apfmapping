@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="dct.c" path="/home/psc/Documents/DCT/HLS_Realization/dct.c"/>
+    <originFiles name="dct.h" path="/home/psc/Documents/DCT/HLS_Realization/dct.h"/>
+  </source>
+  <testbench>
+    <originFiles name="tb_DCT.c" path="/home/psc/Documents/DCT/HLS_Realization/tb_DCT.c"/>
+    <originFiles name="tb_test_input.txt" path="/home/psc/Documents/DCT/HLS_Realization/tb_test_input.txt"/>
+    <originFiles name="tb_test_output.txt" path="/home/psc/Documents/DCT/HLS_Realization/tb_test_output.txt"/>
+    <originFiles name="tb_test_result.txt" path="/home/psc/Documents/DCT/HLS_Realization/tb_test_result.txt"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

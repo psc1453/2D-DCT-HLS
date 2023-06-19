@@ -1,0 +1,144 @@
+INFO: [HLS 200-10] Running '/usr/local/Xilinx/Vivado/2019.2/bin/unwrapped/lnx64.o/vivado_hls'
+INFO: [HLS 200-10] For user 'psc' on host 'PSC-Home-Linux' (Linux_x86_64 version 5.15.114-2-MANJARO) on Sun Jun 18 14:39:51 CST 2023
+INFO: [HLS 200-10] On os "Manjaro Linux"
+INFO: [HLS 200-10] In directory '/home/psc/Documents/DCT/Reference/Design_Analysis/lab1'
+Sourcing Tcl script '/home/psc/Documents/DCT/Reference/Design_Analysis/lab1/dct_prj/solution1/csim.tcl'
+INFO: [HLS 200-10] Opening project '/home/psc/Documents/DCT/Reference/Design_Analysis/lab1/dct_prj'.
+INFO: [HLS 200-10] Opening solution '/home/psc/Documents/DCT/Reference/Design_Analysis/lab1/dct_prj/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 8ns.
+INFO: [HLS 200-10] Setting target device to 'xc7k160t-fbg484-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../dct.cpp in debug mode
+   Generating csim.exe
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+               1
+Test passed !
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************

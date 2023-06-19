@@ -1,0 +1,128 @@
+#-----------------------------------------------------------
+# xsim v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Jun 19 20:05:43 2023
+# Process ID: 129798
+# Current directory: /home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog
+# Command line: xsim -mode tcl -source {xsim.dir/DCT/xsim_script.tcl}
+# Log file: /home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/xsim.log
+# Journal file: /home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/DCT/xsim_script.tcl
+# xsim {DCT} -autoloadwcfg -tclbatch {DCT.tcl}
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source DCT.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 100 [0.00%] @ "125000"
+// RTL Simulation : 1 / 100 [100.00%] @ "2385000"
+// RTL Simulation : 2 / 100 [100.00%] @ "4635000"
+// RTL Simulation : 3 / 100 [100.00%] @ "6885000"
+// RTL Simulation : 4 / 100 [100.00%] @ "9135000"
+// RTL Simulation : 5 / 100 [100.00%] @ "11385000"
+// RTL Simulation : 6 / 100 [100.00%] @ "13635000"
+// RTL Simulation : 7 / 100 [100.00%] @ "15885000"
+// RTL Simulation : 8 / 100 [100.00%] @ "18135000"
+// RTL Simulation : 9 / 100 [100.00%] @ "20385000"
+// RTL Simulation : 10 / 100 [100.00%] @ "22635000"
+// RTL Simulation : 11 / 100 [100.00%] @ "24885000"
+// RTL Simulation : 12 / 100 [100.00%] @ "27135000"
+// RTL Simulation : 13 / 100 [100.00%] @ "29385000"
+// RTL Simulation : 14 / 100 [100.00%] @ "31635000"
+// RTL Simulation : 15 / 100 [100.00%] @ "33885000"
+// RTL Simulation : 16 / 100 [100.00%] @ "36135000"
+// RTL Simulation : 17 / 100 [100.00%] @ "38385000"
+// RTL Simulation : 18 / 100 [100.00%] @ "40635000"
+// RTL Simulation : 19 / 100 [100.00%] @ "42885000"
+// RTL Simulation : 20 / 100 [100.00%] @ "45135000"
+// RTL Simulation : 21 / 100 [100.00%] @ "47385000"
+// RTL Simulation : 22 / 100 [100.00%] @ "49635000"
+// RTL Simulation : 23 / 100 [100.00%] @ "51885000"
+// RTL Simulation : 24 / 100 [100.00%] @ "54135000"
+// RTL Simulation : 25 / 100 [100.00%] @ "56385000"
+// RTL Simulation : 26 / 100 [100.00%] @ "58635000"
+// RTL Simulation : 27 / 100 [100.00%] @ "60885000"
+// RTL Simulation : 28 / 100 [100.00%] @ "63135000"
+// RTL Simulation : 29 / 100 [100.00%] @ "65385000"
+// RTL Simulation : 30 / 100 [100.00%] @ "67635000"
+// RTL Simulation : 31 / 100 [100.00%] @ "69885000"
+// RTL Simulation : 32 / 100 [100.00%] @ "72135000"
+// RTL Simulation : 33 / 100 [100.00%] @ "74385000"
+// RTL Simulation : 34 / 100 [100.00%] @ "76635000"
+// RTL Simulation : 35 / 100 [100.00%] @ "78885000"
+// RTL Simulation : 36 / 100 [100.00%] @ "81135000"
+// RTL Simulation : 37 / 100 [100.00%] @ "83385000"
+// RTL Simulation : 38 / 100 [100.00%] @ "85635000"
+// RTL Simulation : 39 / 100 [100.00%] @ "87885000"
+// RTL Simulation : 40 / 100 [100.00%] @ "90135000"
+// RTL Simulation : 41 / 100 [100.00%] @ "92385000"
+// RTL Simulation : 42 / 100 [100.00%] @ "94635000"
+// RTL Simulation : 43 / 100 [100.00%] @ "96885000"
+// RTL Simulation : 44 / 100 [100.00%] @ "99135000"
+// RTL Simulation : 45 / 100 [100.00%] @ "101385000"
+// RTL Simulation : 46 / 100 [100.00%] @ "103635000"
+// RTL Simulation : 47 / 100 [100.00%] @ "105885000"
+// RTL Simulation : 48 / 100 [100.00%] @ "108135000"
+// RTL Simulation : 49 / 100 [100.00%] @ "110385000"
+// RTL Simulation : 50 / 100 [100.00%] @ "112635000"
+// RTL Simulation : 51 / 100 [100.00%] @ "114885000"
+// RTL Simulation : 52 / 100 [100.00%] @ "117135000"
+// RTL Simulation : 53 / 100 [100.00%] @ "119385000"
+// RTL Simulation : 54 / 100 [100.00%] @ "121635000"
+// RTL Simulation : 55 / 100 [100.00%] @ "123885000"
+// RTL Simulation : 56 / 100 [100.00%] @ "126135000"
+// RTL Simulation : 57 / 100 [100.00%] @ "128385000"
+// RTL Simulation : 58 / 100 [100.00%] @ "130635000"
+// RTL Simulation : 59 / 100 [100.00%] @ "132885000"
+// RTL Simulation : 60 / 100 [100.00%] @ "135135000"
+// RTL Simulation : 61 / 100 [100.00%] @ "137385000"
+// RTL Simulation : 62 / 100 [100.00%] @ "139635000"
+// RTL Simulation : 63 / 100 [100.00%] @ "141885000"
+// RTL Simulation : 64 / 100 [100.00%] @ "144135000"
+// RTL Simulation : 65 / 100 [100.00%] @ "146385000"
+// RTL Simulation : 66 / 100 [100.00%] @ "148635000"
+// RTL Simulation : 67 / 100 [100.00%] @ "150885000"
+// RTL Simulation : 68 / 100 [100.00%] @ "153135000"
+// RTL Simulation : 69 / 100 [100.00%] @ "155385000"
+// RTL Simulation : 70 / 100 [100.00%] @ "157635000"
+// RTL Simulation : 71 / 100 [100.00%] @ "159885000"
+// RTL Simulation : 72 / 100 [100.00%] @ "162135000"
+// RTL Simulation : 73 / 100 [100.00%] @ "164385000"
+// RTL Simulation : 74 / 100 [100.00%] @ "166635000"
+// RTL Simulation : 75 / 100 [100.00%] @ "168885000"
+// RTL Simulation : 76 / 100 [100.00%] @ "171135000"
+// RTL Simulation : 77 / 100 [100.00%] @ "173385000"
+// RTL Simulation : 78 / 100 [100.00%] @ "175635000"
+// RTL Simulation : 79 / 100 [100.00%] @ "177885000"
+// RTL Simulation : 80 / 100 [100.00%] @ "180135000"
+// RTL Simulation : 81 / 100 [100.00%] @ "182385000"
+// RTL Simulation : 82 / 100 [100.00%] @ "184635000"
+// RTL Simulation : 83 / 100 [100.00%] @ "186885000"
+// RTL Simulation : 84 / 100 [100.00%] @ "189135000"
+// RTL Simulation : 85 / 100 [100.00%] @ "191385000"
+// RTL Simulation : 86 / 100 [100.00%] @ "193635000"
+// RTL Simulation : 87 / 100 [100.00%] @ "195885000"
+// RTL Simulation : 88 / 100 [100.00%] @ "198135000"
+// RTL Simulation : 89 / 100 [100.00%] @ "200385000"
+// RTL Simulation : 90 / 100 [100.00%] @ "202635000"
+// RTL Simulation : 91 / 100 [100.00%] @ "204885000"
+// RTL Simulation : 92 / 100 [100.00%] @ "207135000"
+// RTL Simulation : 93 / 100 [100.00%] @ "209385000"
+// RTL Simulation : 94 / 100 [100.00%] @ "211635000"
+// RTL Simulation : 95 / 100 [100.00%] @ "213885000"
+// RTL Simulation : 96 / 100 [100.00%] @ "216135000"
+// RTL Simulation : 97 / 100 [100.00%] @ "218385000"
+// RTL Simulation : 98 / 100 [100.00%] @ "220635000"
+// RTL Simulation : 99 / 100 [100.00%] @ "222885000"
+// RTL Simulation : 100 / 100 [100.00%] @ "225135000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 225175 ns : File "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT.autotb.v" Line 1152
+## quit
+INFO: [Common 17-206] Exiting xsim at Mon Jun 19 20:05:51 2023...

@@ -1,0 +1,8 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /usr/local/Xilinx/Vivado/2019.2/bin/unwrapped/lnx64.o/xelab -wto ea19f2f73fc745b996f3be612b49ff9c --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot apatb_DCT_top_behav xil_defaultlib.apatb_DCT_top xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <DCT> not found while processing module instance <AESL_inst_DCT> [/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/DCT.autotb.v:330]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

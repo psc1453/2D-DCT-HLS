@@ -1,0 +1,422 @@
+
+
+================================================================
+== Vivado HLS Report for 'DCT'
+================================================================
+* Date:           Mon Jun 19 20:01:28 2023
+
+* Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
+* Project:        dct
+* Solution:       solution1
+* Product family: virtexuplus
+* Target device:  xcvu47p-fsvh2892-3-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  | 10.00 ns | 6.834 ns |   1.25 ns  |
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |      224|      224| 2.240 us | 2.240 us |  224|  224|   none  |
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        +-------------------------+--------------+---------+---------+-----------+-----------+-----+-----+----------+
+        |                         |              |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline |
+        |         Instance        |    Module    |   min   |   max   |    min    |    max    | min | max |   Type   |
+        +-------------------------+--------------+---------+---------+-----------+-----------+-----+-----+----------+
+        |grp_DCT_2D_fu_410        |DCT_2D        |       51|       51|  0.510 us |  0.510 us |   28|   28| function |
+        |grp_read_matrix_fu_462   |read_matrix   |        4|        4| 40.000 ns | 40.000 ns |    4|    4| function |
+        |grp_write_matrix_fu_490  |write_matrix  |        4|        4| 40.000 ns | 40.000 ns |    4|    4| function |
+        +-------------------------+--------------+---------+---------+-----------+-----------+-----+-----+----------+
+
+        * Loop: 
+        +-------------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                         |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |        Loop Name        |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +-------------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- memset_input_buf_2d    |       71|       71|         9|          -|          -|     8|    no    |
+        | + memset_input_buf_2d   |        7|        7|         1|          -|          -|     8|    no    |
+        |- memset_output_buf_2d   |       71|       71|         9|          -|          -|     8|    no    |
+        | + memset_output_buf_2d  |        7|        7|         1|          -|          -|     8|    no    |
+        +-------------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++---------------------+---------+-------+---------+---------+-----+
+|         Name        | BRAM_18K| DSP48E|    FF   |   LUT   | URAM|
++---------------------+---------+-------+---------+---------+-----+
+|DSP                  |        -|      -|        -|        -|    -|
+|Expression           |        -|      -|        0|       80|    -|
+|FIFO                 |        -|      -|        -|        -|    -|
+|Instance             |       16|    114|     1222|     8475|    0|
+|Memory               |       16|      -|        0|        0|    0|
+|Multiplexer          |        -|      -|        -|     2021|    -|
+|Register             |        -|      -|      154|        -|    -|
++---------------------+---------+-------+---------+---------+-----+
+|Total                |       32|    114|     1376|    10576|    0|
++---------------------+---------+-------+---------+---------+-----+
+|Available SLR        |     1344|   3008|   869120|   434560|  320|
++---------------------+---------+-------+---------+---------+-----+
+|Utilization SLR (%)  |        2|      3|    ~0   |        2|    0|
++---------------------+---------+-------+---------+---------+-----+
+|Available            |     4032|   9024|  2607360|  1303680|  960|
++---------------------+---------+-------+---------+---------+-----+
+|Utilization (%)      |    ~0   |      1|    ~0   |    ~0   |    0|
++---------------------+---------+-------+---------+---------+-----+
+
++ Detail: 
+    * Instance: 
+    +-------------------------+--------------+---------+-------+------+------+-----+
+    |         Instance        |    Module    | BRAM_18K| DSP48E|  FF  |  LUT | URAM|
+    +-------------------------+--------------+---------+-------+------+------+-----+
+    |grp_DCT_2D_fu_410        |DCT_2D        |       16|    114|  1210|  6649|    0|
+    |grp_read_matrix_fu_462   |read_matrix   |        0|      0|     6|   913|    0|
+    |grp_write_matrix_fu_490  |write_matrix  |        0|      0|     6|   913|    0|
+    +-------------------------+--------------+---------+-------+------+------+-----+
+    |Total                    |              |       16|    114|  1222|  8475|    0|
+    +-------------------------+--------------+---------+-------+------+------+-----+
+
+    * DSP48E: 
+    N/A
+
+    * Memory: 
+    +-------------------+----------------------+---------+---+----+-----+------+-----+------+-------------+
+    |       Memory      |        Module        | BRAM_18K| FF| LUT| URAM| Words| Bits| Banks| W*Bits*Banks|
+    +-------------------+----------------------+---------+---+----+-----+------+-----+------+-------------+
+    |output_buf_2d_0_U  |DCT_2D_DCT_1D_outOgC  |        1|  0|   0|    0|     8|   16|     1|          128|
+    |output_buf_2d_1_U  |DCT_2D_DCT_1D_outOgC  |        1|  0|   0|    0|     8|   16|     1|          128|
+    |output_buf_2d_2_U  |DCT_2D_DCT_1D_outOgC  |        1|  0|   0|    0|     8|   16|     1|          128|
+    |output_buf_2d_3_U  |DCT_2D_DCT_1D_outOgC  |        1|  0|   0|    0|     8|   16|     1|          128|
+    |output_buf_2d_4_U  |DCT_2D_DCT_1D_outOgC  |        1|  0|   0|    0|     8|   16|     1|          128|
+    |output_buf_2d_5_U  |DCT_2D_DCT_1D_outOgC  |        1|  0|   0|    0|     8|   16|     1|          128|
+    |output_buf_2d_6_U  |DCT_2D_DCT_1D_outOgC  |        1|  0|   0|    0|     8|   16|     1|          128|
+    |output_buf_2d_7_U  |DCT_2D_DCT_1D_outOgC  |        1|  0|   0|    0|     8|   16|     1|          128|
+    |input_buf_2d_0_U   |DCT_input_buf_2d_0    |        1|  0|   0|    0|     8|   16|     1|          128|
+    |input_buf_2d_1_U   |DCT_input_buf_2d_0    |        1|  0|   0|    0|     8|   16|     1|          128|
+    |input_buf_2d_2_U   |DCT_input_buf_2d_0    |        1|  0|   0|    0|     8|   16|     1|          128|
+    |input_buf_2d_3_U   |DCT_input_buf_2d_0    |        1|  0|   0|    0|     8|   16|     1|          128|
+    |input_buf_2d_4_U   |DCT_input_buf_2d_0    |        1|  0|   0|    0|     8|   16|     1|          128|
+    |input_buf_2d_5_U   |DCT_input_buf_2d_0    |        1|  0|   0|    0|     8|   16|     1|          128|
+    |input_buf_2d_6_U   |DCT_input_buf_2d_0    |        1|  0|   0|    0|     8|   16|     1|          128|
+    |input_buf_2d_7_U   |DCT_input_buf_2d_0    |        1|  0|   0|    0|     8|   16|     1|          128|
+    +-------------------+----------------------+---------+---+----+-----+------+-----+------+-------------+
+    |Total              |                      |       16|  0|   0|    0|   128|  256|    16|         2048|
+    +-------------------+----------------------+---------+---+----+-----+------+-----+------+-------------+
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +------------------------+----------+-------+---+----+------------+------------+
+    |      Variable Name     | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +------------------------+----------+-------+---+----+------------+------------+
+    |add_ln110_1_fu_536_p2   |     +    |      0|  0|  11|           3|           1|
+    |add_ln110_fu_518_p2     |     +    |      0|  0|  11|           3|           1|
+    |add_ln111_1_fu_572_p2   |     +    |      0|  0|  11|           3|           1|
+    |add_ln111_fu_554_p2     |     +    |      0|  0|  11|           3|           1|
+    |icmp_ln110_1_fu_548_p2  |   icmp   |      0|  0|   9|           3|           2|
+    |icmp_ln110_fu_542_p2    |   icmp   |      0|  0|   9|           3|           2|
+    |icmp_ln111_1_fu_584_p2  |   icmp   |      0|  0|   9|           3|           2|
+    |icmp_ln111_fu_578_p2    |   icmp   |      0|  0|   9|           3|           2|
+    +------------------------+----------+-------+---+----+------------+------------+
+    |Total                   |          |      0|  0|  80|          24|          12|
+    +------------------------+----------+-------+---+----+------------+------------+
+
+    * Multiplexer: 
+    +--------------------------+-----+-----------+-----+-----------+
+    |           Name           | LUT | Input Size| Bits| Total Bits|
+    +--------------------------+-----+-----------+-----+-----------+
+    |ap_NS_fsm                 |  377|         86|    1|         86|
+    |input_buf_2d_0_address0   |   21|          4|    3|         12|
+    |input_buf_2d_0_ce0        |   21|          4|    1|          4|
+    |input_buf_2d_0_ce1        |    9|          2|    1|          2|
+    |input_buf_2d_0_d0         |   15|          3|   16|         48|
+    |input_buf_2d_0_we0        |   15|          3|    1|          3|
+    |input_buf_2d_0_we1        |    9|          2|    1|          2|
+    |input_buf_2d_1_address0   |   21|          4|    3|         12|
+    |input_buf_2d_1_ce0        |   21|          4|    1|          4|
+    |input_buf_2d_1_ce1        |    9|          2|    1|          2|
+    |input_buf_2d_1_d0         |   15|          3|   16|         48|
+    |input_buf_2d_1_we0        |   15|          3|    1|          3|
+    |input_buf_2d_1_we1        |    9|          2|    1|          2|
+    |input_buf_2d_2_address0   |   21|          4|    3|         12|
+    |input_buf_2d_2_ce0        |   21|          4|    1|          4|
+    |input_buf_2d_2_ce1        |    9|          2|    1|          2|
+    |input_buf_2d_2_d0         |   15|          3|   16|         48|
+    |input_buf_2d_2_we0        |   15|          3|    1|          3|
+    |input_buf_2d_2_we1        |    9|          2|    1|          2|
+    |input_buf_2d_3_address0   |   21|          4|    3|         12|
+    |input_buf_2d_3_ce0        |   21|          4|    1|          4|
+    |input_buf_2d_3_ce1        |    9|          2|    1|          2|
+    |input_buf_2d_3_d0         |   15|          3|   16|         48|
+    |input_buf_2d_3_we0        |   15|          3|    1|          3|
+    |input_buf_2d_3_we1        |    9|          2|    1|          2|
+    |input_buf_2d_4_address0   |   21|          4|    3|         12|
+    |input_buf_2d_4_ce0        |   21|          4|    1|          4|
+    |input_buf_2d_4_ce1        |    9|          2|    1|          2|
+    |input_buf_2d_4_d0         |   15|          3|   16|         48|
+    |input_buf_2d_4_we0        |   15|          3|    1|          3|
+    |input_buf_2d_4_we1        |    9|          2|    1|          2|
+    |input_buf_2d_5_address0   |   21|          4|    3|         12|
+    |input_buf_2d_5_ce0        |   21|          4|    1|          4|
+    |input_buf_2d_5_ce1        |    9|          2|    1|          2|
+    |input_buf_2d_5_d0         |   15|          3|   16|         48|
+    |input_buf_2d_5_we0        |   15|          3|    1|          3|
+    |input_buf_2d_5_we1        |    9|          2|    1|          2|
+    |input_buf_2d_6_address0   |   21|          4|    3|         12|
+    |input_buf_2d_6_ce0        |   21|          4|    1|          4|
+    |input_buf_2d_6_ce1        |    9|          2|    1|          2|
+    |input_buf_2d_6_d0         |   15|          3|   16|         48|
+    |input_buf_2d_6_we0        |   15|          3|    1|          3|
+    |input_buf_2d_6_we1        |    9|          2|    1|          2|
+    |input_buf_2d_7_address0   |   21|          4|    3|         12|
+    |input_buf_2d_7_ce0        |   21|          4|    1|          4|
+    |input_buf_2d_7_ce1        |    9|          2|    1|          2|
+    |input_buf_2d_7_d0         |   15|          3|   16|         48|
+    |input_buf_2d_7_we0        |   15|          3|    1|          3|
+    |input_buf_2d_7_we1        |    9|          2|    1|          2|
+    |output_buf_2d_0_address0  |   21|          4|    3|         12|
+    |output_buf_2d_0_address1  |   15|          3|    3|          9|
+    |output_buf_2d_0_ce0       |   21|          4|    1|          4|
+    |output_buf_2d_0_ce1       |   15|          3|    1|          3|
+    |output_buf_2d_0_d0        |   15|          3|   16|         48|
+    |output_buf_2d_0_we0       |   15|          3|    1|          3|
+    |output_buf_2d_0_we1       |    9|          2|    1|          2|
+    |output_buf_2d_1_address0  |   21|          4|    3|         12|
+    |output_buf_2d_1_address1  |   15|          3|    3|          9|
+    |output_buf_2d_1_ce0       |   21|          4|    1|          4|
+    |output_buf_2d_1_ce1       |   15|          3|    1|          3|
+    |output_buf_2d_1_d0        |   15|          3|   16|         48|
+    |output_buf_2d_1_we0       |   15|          3|    1|          3|
+    |output_buf_2d_1_we1       |    9|          2|    1|          2|
+    |output_buf_2d_2_address0  |   21|          4|    3|         12|
+    |output_buf_2d_2_address1  |   15|          3|    3|          9|
+    |output_buf_2d_2_ce0       |   21|          4|    1|          4|
+    |output_buf_2d_2_ce1       |   15|          3|    1|          3|
+    |output_buf_2d_2_d0        |   15|          3|   16|         48|
+    |output_buf_2d_2_we0       |   15|          3|    1|          3|
+    |output_buf_2d_2_we1       |    9|          2|    1|          2|
+    |output_buf_2d_3_address0  |   21|          4|    3|         12|
+    |output_buf_2d_3_address1  |   15|          3|    3|          9|
+    |output_buf_2d_3_ce0       |   21|          4|    1|          4|
+    |output_buf_2d_3_ce1       |   15|          3|    1|          3|
+    |output_buf_2d_3_d0        |   15|          3|   16|         48|
+    |output_buf_2d_3_we0       |   15|          3|    1|          3|
+    |output_buf_2d_3_we1       |    9|          2|    1|          2|
+    |output_buf_2d_4_address0  |   21|          4|    3|         12|
+    |output_buf_2d_4_address1  |   15|          3|    3|          9|
+    |output_buf_2d_4_ce0       |   21|          4|    1|          4|
+    |output_buf_2d_4_ce1       |   15|          3|    1|          3|
+    |output_buf_2d_4_d0        |   15|          3|   16|         48|
+    |output_buf_2d_4_we0       |   15|          3|    1|          3|
+    |output_buf_2d_4_we1       |    9|          2|    1|          2|
+    |output_buf_2d_5_address0  |   21|          4|    3|         12|
+    |output_buf_2d_5_address1  |   15|          3|    3|          9|
+    |output_buf_2d_5_ce0       |   21|          4|    1|          4|
+    |output_buf_2d_5_ce1       |   15|          3|    1|          3|
+    |output_buf_2d_5_d0        |   15|          3|   16|         48|
+    |output_buf_2d_5_we0       |   15|          3|    1|          3|
+    |output_buf_2d_5_we1       |    9|          2|    1|          2|
+    |output_buf_2d_6_address0  |   21|          4|    3|         12|
+    |output_buf_2d_6_address1  |   15|          3|    3|          9|
+    |output_buf_2d_6_ce0       |   21|          4|    1|          4|
+    |output_buf_2d_6_ce1       |   15|          3|    1|          3|
+    |output_buf_2d_6_d0        |   15|          3|   16|         48|
+    |output_buf_2d_6_we0       |   15|          3|    1|          3|
+    |output_buf_2d_6_we1       |    9|          2|    1|          2|
+    |output_buf_2d_7_address0  |   21|          4|    3|         12|
+    |output_buf_2d_7_address1  |   15|          3|    3|          9|
+    |output_buf_2d_7_ce0       |   21|          4|    1|          4|
+    |output_buf_2d_7_ce1       |   15|          3|    1|          3|
+    |output_buf_2d_7_d0        |   15|          3|   16|         48|
+    |output_buf_2d_7_we0       |   15|          3|    1|          3|
+    |output_buf_2d_7_we1       |    9|          2|    1|          2|
+    |phi_ln110_1_reg_376       |    9|          2|    3|          6|
+    |phi_ln110_reg_364         |    9|          2|    3|          6|
+    |phi_ln111_1_reg_399       |    9|          2|    3|          6|
+    |phi_ln111_reg_387         |    9|          2|    3|          6|
+    +--------------------------+-----+-----------+-----+-----------+
+    |Total                     | 2021|        414|  405|       1326|
+    +--------------------------+-----+-----------+-----+-----------+
+
+    * Register: 
+    +--------------------------------------+----+----+-----+-----------+
+    |                 Name                 | FF | LUT| Bits| Const Bits|
+    +--------------------------------------+----+----+-----+-----------+
+    |add_ln110_reg_590                     |   3|   0|    3|          0|
+    |add_ln111_reg_646                     |   3|   0|    3|          0|
+    |ap_CS_fsm                             |  85|   0|   85|          0|
+    |grp_DCT_2D_fu_410_ap_start_reg        |   1|   0|    1|          0|
+    |grp_read_matrix_fu_462_ap_start_reg   |   1|   0|    1|          0|
+    |grp_write_matrix_fu_490_ap_start_reg  |   1|   0|    1|          0|
+    |input_buf_2d_0_addr_reg_595           |   3|   0|    3|          0|
+    |input_buf_2d_1_addr_reg_600           |   3|   0|    3|          0|
+    |input_buf_2d_2_addr_reg_605           |   3|   0|    3|          0|
+    |input_buf_2d_3_addr_reg_610           |   3|   0|    3|          0|
+    |input_buf_2d_4_addr_reg_615           |   3|   0|    3|          0|
+    |input_buf_2d_5_addr_reg_620           |   3|   0|    3|          0|
+    |input_buf_2d_6_addr_reg_625           |   3|   0|    3|          0|
+    |input_buf_2d_7_addr_reg_630           |   3|   0|    3|          0|
+    |output_buf_2d_0_add_reg_651           |   3|   0|    3|          0|
+    |output_buf_2d_1_add_reg_656           |   3|   0|    3|          0|
+    |output_buf_2d_2_add_reg_661           |   3|   0|    3|          0|
+    |output_buf_2d_3_add_reg_666           |   3|   0|    3|          0|
+    |output_buf_2d_4_add_reg_671           |   3|   0|    3|          0|
+    |output_buf_2d_5_add_reg_676           |   3|   0|    3|          0|
+    |output_buf_2d_6_add_reg_681           |   3|   0|    3|          0|
+    |output_buf_2d_7_add_reg_686           |   3|   0|    3|          0|
+    |phi_ln110_1_reg_376                   |   3|   0|    3|          0|
+    |phi_ln110_reg_364                     |   3|   0|    3|          0|
+    |phi_ln111_1_reg_399                   |   3|   0|    3|          0|
+    |phi_ln111_reg_387                     |   3|   0|    3|          0|
+    +--------------------------------------+----+----+-----+-----------+
+    |Total                                 | 154|   0|  154|          0|
+    +--------------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-------------------+-----+-----+------------+--------------+--------------+
+|     RTL Ports     | Dir | Bits|  Protocol  | Source Object|    C Type    |
++-------------------+-----+-----+------------+--------------+--------------+
+|ap_clk             |  in |    1| ap_ctrl_hs |      DCT     | return value |
+|ap_rst             |  in |    1| ap_ctrl_hs |      DCT     | return value |
+|ap_start           |  in |    1| ap_ctrl_hs |      DCT     | return value |
+|ap_done            | out |    1| ap_ctrl_hs |      DCT     | return value |
+|ap_idle            | out |    1| ap_ctrl_hs |      DCT     | return value |
+|ap_ready           | out |    1| ap_ctrl_hs |      DCT     | return value |
+|input_0_address0   | out |    3|  ap_memory |    input_0   |     array    |
+|input_0_ce0        | out |    1|  ap_memory |    input_0   |     array    |
+|input_0_q0         |  in |   16|  ap_memory |    input_0   |     array    |
+|input_0_address1   | out |    3|  ap_memory |    input_0   |     array    |
+|input_0_ce1        | out |    1|  ap_memory |    input_0   |     array    |
+|input_0_q1         |  in |   16|  ap_memory |    input_0   |     array    |
+|input_1_address0   | out |    3|  ap_memory |    input_1   |     array    |
+|input_1_ce0        | out |    1|  ap_memory |    input_1   |     array    |
+|input_1_q0         |  in |   16|  ap_memory |    input_1   |     array    |
+|input_1_address1   | out |    3|  ap_memory |    input_1   |     array    |
+|input_1_ce1        | out |    1|  ap_memory |    input_1   |     array    |
+|input_1_q1         |  in |   16|  ap_memory |    input_1   |     array    |
+|input_2_address0   | out |    3|  ap_memory |    input_2   |     array    |
+|input_2_ce0        | out |    1|  ap_memory |    input_2   |     array    |
+|input_2_q0         |  in |   16|  ap_memory |    input_2   |     array    |
+|input_2_address1   | out |    3|  ap_memory |    input_2   |     array    |
+|input_2_ce1        | out |    1|  ap_memory |    input_2   |     array    |
+|input_2_q1         |  in |   16|  ap_memory |    input_2   |     array    |
+|input_3_address0   | out |    3|  ap_memory |    input_3   |     array    |
+|input_3_ce0        | out |    1|  ap_memory |    input_3   |     array    |
+|input_3_q0         |  in |   16|  ap_memory |    input_3   |     array    |
+|input_3_address1   | out |    3|  ap_memory |    input_3   |     array    |
+|input_3_ce1        | out |    1|  ap_memory |    input_3   |     array    |
+|input_3_q1         |  in |   16|  ap_memory |    input_3   |     array    |
+|input_4_address0   | out |    3|  ap_memory |    input_4   |     array    |
+|input_4_ce0        | out |    1|  ap_memory |    input_4   |     array    |
+|input_4_q0         |  in |   16|  ap_memory |    input_4   |     array    |
+|input_4_address1   | out |    3|  ap_memory |    input_4   |     array    |
+|input_4_ce1        | out |    1|  ap_memory |    input_4   |     array    |
+|input_4_q1         |  in |   16|  ap_memory |    input_4   |     array    |
+|input_5_address0   | out |    3|  ap_memory |    input_5   |     array    |
+|input_5_ce0        | out |    1|  ap_memory |    input_5   |     array    |
+|input_5_q0         |  in |   16|  ap_memory |    input_5   |     array    |
+|input_5_address1   | out |    3|  ap_memory |    input_5   |     array    |
+|input_5_ce1        | out |    1|  ap_memory |    input_5   |     array    |
+|input_5_q1         |  in |   16|  ap_memory |    input_5   |     array    |
+|input_6_address0   | out |    3|  ap_memory |    input_6   |     array    |
+|input_6_ce0        | out |    1|  ap_memory |    input_6   |     array    |
+|input_6_q0         |  in |   16|  ap_memory |    input_6   |     array    |
+|input_6_address1   | out |    3|  ap_memory |    input_6   |     array    |
+|input_6_ce1        | out |    1|  ap_memory |    input_6   |     array    |
+|input_6_q1         |  in |   16|  ap_memory |    input_6   |     array    |
+|input_7_address0   | out |    3|  ap_memory |    input_7   |     array    |
+|input_7_ce0        | out |    1|  ap_memory |    input_7   |     array    |
+|input_7_q0         |  in |   16|  ap_memory |    input_7   |     array    |
+|input_7_address1   | out |    3|  ap_memory |    input_7   |     array    |
+|input_7_ce1        | out |    1|  ap_memory |    input_7   |     array    |
+|input_7_q1         |  in |   16|  ap_memory |    input_7   |     array    |
+|output_0_address0  | out |    3|  ap_memory |   output_0   |     array    |
+|output_0_ce0       | out |    1|  ap_memory |   output_0   |     array    |
+|output_0_we0       | out |    1|  ap_memory |   output_0   |     array    |
+|output_0_d0        | out |   16|  ap_memory |   output_0   |     array    |
+|output_0_address1  | out |    3|  ap_memory |   output_0   |     array    |
+|output_0_ce1       | out |    1|  ap_memory |   output_0   |     array    |
+|output_0_we1       | out |    1|  ap_memory |   output_0   |     array    |
+|output_0_d1        | out |   16|  ap_memory |   output_0   |     array    |
+|output_1_address0  | out |    3|  ap_memory |   output_1   |     array    |
+|output_1_ce0       | out |    1|  ap_memory |   output_1   |     array    |
+|output_1_we0       | out |    1|  ap_memory |   output_1   |     array    |
+|output_1_d0        | out |   16|  ap_memory |   output_1   |     array    |
+|output_1_address1  | out |    3|  ap_memory |   output_1   |     array    |
+|output_1_ce1       | out |    1|  ap_memory |   output_1   |     array    |
+|output_1_we1       | out |    1|  ap_memory |   output_1   |     array    |
+|output_1_d1        | out |   16|  ap_memory |   output_1   |     array    |
+|output_2_address0  | out |    3|  ap_memory |   output_2   |     array    |
+|output_2_ce0       | out |    1|  ap_memory |   output_2   |     array    |
+|output_2_we0       | out |    1|  ap_memory |   output_2   |     array    |
+|output_2_d0        | out |   16|  ap_memory |   output_2   |     array    |
+|output_2_address1  | out |    3|  ap_memory |   output_2   |     array    |
+|output_2_ce1       | out |    1|  ap_memory |   output_2   |     array    |
+|output_2_we1       | out |    1|  ap_memory |   output_2   |     array    |
+|output_2_d1        | out |   16|  ap_memory |   output_2   |     array    |
+|output_3_address0  | out |    3|  ap_memory |   output_3   |     array    |
+|output_3_ce0       | out |    1|  ap_memory |   output_3   |     array    |
+|output_3_we0       | out |    1|  ap_memory |   output_3   |     array    |
+|output_3_d0        | out |   16|  ap_memory |   output_3   |     array    |
+|output_3_address1  | out |    3|  ap_memory |   output_3   |     array    |
+|output_3_ce1       | out |    1|  ap_memory |   output_3   |     array    |
+|output_3_we1       | out |    1|  ap_memory |   output_3   |     array    |
+|output_3_d1        | out |   16|  ap_memory |   output_3   |     array    |
+|output_4_address0  | out |    3|  ap_memory |   output_4   |     array    |
+|output_4_ce0       | out |    1|  ap_memory |   output_4   |     array    |
+|output_4_we0       | out |    1|  ap_memory |   output_4   |     array    |
+|output_4_d0        | out |   16|  ap_memory |   output_4   |     array    |
+|output_4_address1  | out |    3|  ap_memory |   output_4   |     array    |
+|output_4_ce1       | out |    1|  ap_memory |   output_4   |     array    |
+|output_4_we1       | out |    1|  ap_memory |   output_4   |     array    |
+|output_4_d1        | out |   16|  ap_memory |   output_4   |     array    |
+|output_5_address0  | out |    3|  ap_memory |   output_5   |     array    |
+|output_5_ce0       | out |    1|  ap_memory |   output_5   |     array    |
+|output_5_we0       | out |    1|  ap_memory |   output_5   |     array    |
+|output_5_d0        | out |   16|  ap_memory |   output_5   |     array    |
+|output_5_address1  | out |    3|  ap_memory |   output_5   |     array    |
+|output_5_ce1       | out |    1|  ap_memory |   output_5   |     array    |
+|output_5_we1       | out |    1|  ap_memory |   output_5   |     array    |
+|output_5_d1        | out |   16|  ap_memory |   output_5   |     array    |
+|output_6_address0  | out |    3|  ap_memory |   output_6   |     array    |
+|output_6_ce0       | out |    1|  ap_memory |   output_6   |     array    |
+|output_6_we0       | out |    1|  ap_memory |   output_6   |     array    |
+|output_6_d0        | out |   16|  ap_memory |   output_6   |     array    |
+|output_6_address1  | out |    3|  ap_memory |   output_6   |     array    |
+|output_6_ce1       | out |    1|  ap_memory |   output_6   |     array    |
+|output_6_we1       | out |    1|  ap_memory |   output_6   |     array    |
+|output_6_d1        | out |   16|  ap_memory |   output_6   |     array    |
+|output_7_address0  | out |    3|  ap_memory |   output_7   |     array    |
+|output_7_ce0       | out |    1|  ap_memory |   output_7   |     array    |
+|output_7_we0       | out |    1|  ap_memory |   output_7   |     array    |
+|output_7_d0        | out |   16|  ap_memory |   output_7   |     array    |
+|output_7_address1  | out |    3|  ap_memory |   output_7   |     array    |
+|output_7_ce1       | out |    1|  ap_memory |   output_7   |     array    |
+|output_7_we1       | out |    1|  ap_memory |   output_7   |     array    |
+|output_7_d1        | out |   16|  ap_memory |   output_7   |     array    |
++-------------------+-----+-----+------------+--------------+--------------+
+

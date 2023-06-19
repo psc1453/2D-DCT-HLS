@@ -1,0 +1,6 @@
+INFO: [HLS 200-10] Running '/usr/local/Xilinx/Vivado/2019.2/bin/unwrapped/lnx64.o/apcc'
+INFO: [HLS 200-10] For user 'psc' on host 'PSC-Home-Linux' (Linux_x86_64 version 5.15.114-2-MANJARO) on Sun Jun 18 22:45:27 CST 2023
+INFO: [HLS 200-10] On os "Manjaro Linux"
+INFO: [HLS 200-10] In directory '/home/psc/Documents/DCT/HLS_Realization/dct/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_psc/996341687099527756112
+INFO: [APCC 202-1] APCC is done.

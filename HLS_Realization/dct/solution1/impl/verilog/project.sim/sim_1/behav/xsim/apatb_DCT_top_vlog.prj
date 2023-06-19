@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../sim_tbs/AESL_automem_input_0.v" \
+"../../../../sim_tbs/AESL_automem_input_1.v" \
+"../../../../sim_tbs/AESL_automem_input_2.v" \
+"../../../../sim_tbs/AESL_automem_input_3.v" \
+"../../../../sim_tbs/AESL_automem_input_4.v" \
+"../../../../sim_tbs/AESL_automem_input_5.v" \
+"../../../../sim_tbs/AESL_automem_input_6.v" \
+"../../../../sim_tbs/AESL_automem_input_7.v" \
+"../../../../sim_tbs/AESL_automem_output_0.v" \
+"../../../../sim_tbs/AESL_automem_output_1.v" \
+"../../../../sim_tbs/AESL_automem_output_2.v" \
+"../../../../sim_tbs/AESL_automem_output_3.v" \
+"../../../../sim_tbs/AESL_automem_output_4.v" \
+"../../../../sim_tbs/AESL_automem_output_5.v" \
+"../../../../sim_tbs/AESL_automem_output_6.v" \
+"../../../../sim_tbs/AESL_automem_output_7.v" \
+"../../../../sim_tbs/DCT.autotb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

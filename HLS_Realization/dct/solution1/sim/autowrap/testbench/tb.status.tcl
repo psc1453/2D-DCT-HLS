@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /home/psc/Documents/DCT/HLS_Realization/dct/solution1/./sim/autowrap/testbench/dct.c_pre.c.tb.c

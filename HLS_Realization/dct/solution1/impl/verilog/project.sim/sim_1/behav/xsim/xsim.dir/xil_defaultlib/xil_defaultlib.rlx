@@ -1,0 +1,22 @@
+0.6
+2019.2
+Nov  6 2019
+21:42:20
+/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/project.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_input_0.v,1687176335,verilog,,/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_input_1.v,,AESL_automem_input_0,,,,,,,,
+/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_input_1.v,1687176335,verilog,,/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_input_2.v,,AESL_automem_input_1,,,,,,,,
+/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_input_2.v,1687176335,verilog,,/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_input_3.v,,AESL_automem_input_2,,,,,,,,
+/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_input_3.v,1687176335,verilog,,/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_input_4.v,,AESL_automem_input_3,,,,,,,,
+/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_input_4.v,1687176335,verilog,,/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_input_5.v,,AESL_automem_input_4,,,,,,,,
+/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_input_5.v,1687176335,verilog,,/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_input_6.v,,AESL_automem_input_5,,,,,,,,
+/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_input_6.v,1687176335,verilog,,/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_input_7.v,,AESL_automem_input_6,,,,,,,,
+/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_input_7.v,1687176335,verilog,,/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_output_0.v,,AESL_automem_input_7,,,,,,,,
+/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_output_0.v,1687176335,verilog,,/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_output_1.v,,AESL_automem_output_0,,,,,,,,
+/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_output_1.v,1687176335,verilog,,/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_output_2.v,,AESL_automem_output_1,,,,,,,,
+/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_output_2.v,1687176335,verilog,,/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_output_3.v,,AESL_automem_output_2,,,,,,,,
+/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_output_3.v,1687176335,verilog,,/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_output_4.v,,AESL_automem_output_3,,,,,,,,
+/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_output_4.v,1687176335,verilog,,/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_output_5.v,,AESL_automem_output_4,,,,,,,,
+/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_output_5.v,1687176335,verilog,,/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_output_6.v,,AESL_automem_output_5,,,,,,,,
+/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_output_6.v,1687176335,verilog,,/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_output_7.v,,AESL_automem_output_6,,,,,,,,
+/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/AESL_automem_output_7.v,1687176335,verilog,,/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/DCT.autotb.v,,AESL_automem_output_7,,,,,,,,
+/home/psc/Documents/DCT/HLS_Realization/dct/solution1/impl/verilog/sim_tbs/DCT.autotb.v,1687176335,verilog,,,,apatb_DCT_top,,,,,,,,

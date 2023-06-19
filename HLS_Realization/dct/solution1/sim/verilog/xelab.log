@@ -1,0 +1,225 @@
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "/usr/local/Xilinx/Vivado/2019.2/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /usr/local/Xilinx/Vivado/2019.2/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_DCT_top glbl -prj DCT.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile /usr/local/Xilinx/Vivado/2019.2/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s DCT 
+Multi-threading is on. Using 30 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_mac_muladd_16rcU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16rcU_DSP48_16
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16rcU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/AESL_automem_output_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_output_3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_1D.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_1D
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/AESL_automem_output_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_output_5
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_mac_muladd_16wdI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16wdI_DSP48_21
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16wdI
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/AESL_automem_output_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_output_2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_input_buf_2d_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_input_buf_2d_0_ram
+INFO: [VRFC 10-311] analyzing module DCT_input_buf_2d_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/AESL_automem_output_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_output_7
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/AESL_automem_input_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_input_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_mac_muladd_16tde.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16tde_DSP48_18
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16tde
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/AESL_automem_input_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_input_7
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_mac_muladd_16jbC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16jbC_DSP48_8
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16jbC
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_mul_mul_16s_1eOg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_mul_mul_16s_1eOg_DSP48_3
+INFO: [VRFC 10-311] analyzing module DCT_mul_mul_16s_1eOg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_2D.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_2D
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_DCT_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_mac_muladd_16fYi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16fYi_DSP48_4
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16fYi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_mac_muladd_16qcK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16qcK_DSP48_15
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16qcK
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/AESL_automem_output_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_output_6
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/transpose_matrix_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transpose_matrix_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_mul_mul_16s_1mb6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_mul_mul_16s_1mb6_DSP48_11
+INFO: [VRFC 10-311] analyzing module DCT_mul_mul_16s_1mb6
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_mac_muladd_16lbW.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16lbW_DSP48_10
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16lbW
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_mac_muladd_16ncg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16ncg_DSP48_12
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16ncg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/AESL_automem_input_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_input_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_mac_muladd_16ibs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16ibs_DSP48_7
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16ibs
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_mac_muladd_16pcA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16pcA_DSP48_14
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16pcA
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_2D_DCT_1D_outGfk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_2D_DCT_1D_outGfk_ram
+INFO: [VRFC 10-311] analyzing module DCT_2D_DCT_1D_outGfk
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_mac_muladd_16sc4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16sc4_DSP48_17
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16sc4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_mac_muladd_16vdy.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16vdy_DSP48_20
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16vdy
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_1D_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_1D_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_mac_muladd_16xdS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16xdS_DSP48_22
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16xdS
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/AESL_automem_output_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_output_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_mac_muladd_16udo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16udo_DSP48_19
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16udo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_mac_muladd_16cud.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16cud_DSP48_1
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16cud
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/AESL_automem_input_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_input_3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/read_matrix.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module read_matrix
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/AESL_automem_input_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_input_6
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_ama_addmuladdbkb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_ama_addmuladdbkb_DSP48_0
+INFO: [VRFC 10-311] analyzing module DCT_ama_addmuladdbkb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_mac_muladd_16ocq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16ocq_DSP48_13
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16ocq
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/AESL_automem_output_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_output_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/AESL_automem_output_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_output_4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/AESL_automem_input_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_input_5
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/write_matrix.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_matrix
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_mac_muladd_16kbM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16kbM_DSP48_9
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16kbM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_2D_DCT_1D_in_yd2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_2D_DCT_1D_in_yd2_ram
+INFO: [VRFC 10-311] analyzing module DCT_2D_DCT_1D_in_yd2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_mul_mul_16s_1dEe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_mul_mul_16s_1dEe_DSP48_2
+INFO: [VRFC 10-311] analyzing module DCT_mul_mul_16s_1dEe
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_2D_DCT_1D_outOgC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_2D_DCT_1D_outOgC_ram
+INFO: [VRFC 10-311] analyzing module DCT_2D_DCT_1D_outOgC
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_mul_mul_16s_1hbi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_mul_mul_16s_1hbi_DSP48_6
+INFO: [VRFC 10-311] analyzing module DCT_mul_mul_16s_1hbi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/DCT_mac_muladd_16g8j.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16g8j_DSP48_5
+INFO: [VRFC 10-311] analyzing module DCT_mac_muladd_16g8j
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/transpose_matrix.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transpose_matrix
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/AESL_automem_input_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_input_4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/psc/Documents/DCT/HLS_Realization/dct/solution1/sim/verilog/AESL_automem_input_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_input_2
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DCT_input_buf_2d_0_ram
+Compiling module xil_defaultlib.DCT_input_buf_2d_0(DataWidth=16,...
+Compiling module xil_defaultlib.DCT_2D_DCT_1D_outOgC_ram
+Compiling module xil_defaultlib.DCT_2D_DCT_1D_outOgC(DataWidth=1...
+Compiling module xil_defaultlib.DCT_2D_DCT_1D_in_yd2_ram
+Compiling module xil_defaultlib.DCT_2D_DCT_1D_in_yd2(DataWidth=1...
+Compiling module xil_defaultlib.DCT_2D_DCT_1D_outGfk_ram
+Compiling module xil_defaultlib.DCT_2D_DCT_1D_outGfk(DataWidth=1...
+Compiling module xil_defaultlib.transpose_matrix_1
+Compiling module xil_defaultlib.transpose_matrix
+Compiling module xil_defaultlib.DCT_ama_addmuladdbkb_DSP48_0
+Compiling module xil_defaultlib.DCT_ama_addmuladdbkb(ID=1,NUM_ST...
+Compiling module xil_defaultlib.DCT_mac_muladd_16cud_DSP48_1
+Compiling module xil_defaultlib.DCT_mac_muladd_16cud(ID=1,NUM_ST...
+Compiling module xil_defaultlib.DCT_mul_mul_16s_1dEe_DSP48_2
+Compiling module xil_defaultlib.DCT_mul_mul_16s_1dEe(ID=1,NUM_ST...
+Compiling module xil_defaultlib.DCT_mul_mul_16s_1eOg_DSP48_3
+Compiling module xil_defaultlib.DCT_mul_mul_16s_1eOg(ID=1,NUM_ST...
+Compiling module xil_defaultlib.DCT_mac_muladd_16fYi_DSP48_4
+Compiling module xil_defaultlib.DCT_mac_muladd_16fYi(ID=1,NUM_ST...
+Compiling module xil_defaultlib.DCT_mac_muladd_16g8j_DSP48_5
+Compiling module xil_defaultlib.DCT_mac_muladd_16g8j(ID=1,NUM_ST...
+Compiling module xil_defaultlib.DCT_mul_mul_16s_1hbi_DSP48_6
+Compiling module xil_defaultlib.DCT_mul_mul_16s_1hbi(ID=1,NUM_ST...
+Compiling module xil_defaultlib.DCT_mac_muladd_16ibs_DSP48_7
+Compiling module xil_defaultlib.DCT_mac_muladd_16ibs(ID=1,NUM_ST...
+Compiling module xil_defaultlib.DCT_mac_muladd_16jbC_DSP48_8
+Compiling module xil_defaultlib.DCT_mac_muladd_16jbC(ID=1,NUM_ST...
+Compiling module xil_defaultlib.DCT_mac_muladd_16kbM_DSP48_9
+Compiling module xil_defaultlib.DCT_mac_muladd_16kbM(ID=1,NUM_ST...
+Compiling module xil_defaultlib.DCT_mac_muladd_16lbW_DSP48_10
+Compiling module xil_defaultlib.DCT_mac_muladd_16lbW(ID=1,NUM_ST...
+Compiling module xil_defaultlib.DCT_mul_mul_16s_1mb6_DSP48_11
+Compiling module xil_defaultlib.DCT_mul_mul_16s_1mb6(ID=1,NUM_ST...
+Compiling module xil_defaultlib.DCT_mac_muladd_16ncg_DSP48_12
+Compiling module xil_defaultlib.DCT_mac_muladd_16ncg(ID=1,NUM_ST...
+Compiling module xil_defaultlib.DCT_mac_muladd_16ocq_DSP48_13
+Compiling module xil_defaultlib.DCT_mac_muladd_16ocq(ID=1,NUM_ST...
+Compiling module xil_defaultlib.DCT_mac_muladd_16pcA_DSP48_14
+Compiling module xil_defaultlib.DCT_mac_muladd_16pcA(ID=1,NUM_ST...
+Compiling module xil_defaultlib.DCT_mac_muladd_16qcK_DSP48_15
+Compiling module xil_defaultlib.DCT_mac_muladd_16qcK(ID=1,NUM_ST...
+Compiling module xil_defaultlib.DCT_mac_muladd_16rcU_DSP48_16
+Compiling module xil_defaultlib.DCT_mac_muladd_16rcU(ID=1,NUM_ST...
+Compiling module xil_defaultlib.DCT_mac_muladd_16sc4_DSP48_17
+Compiling module xil_defaultlib.DCT_mac_muladd_16sc4(ID=1,NUM_ST...
+Compiling module xil_defaultlib.DCT_mac_muladd_16tde_DSP48_18
+Compiling module xil_defaultlib.DCT_mac_muladd_16tde(ID=1,NUM_ST...
+Compiling module xil_defaultlib.DCT_mac_muladd_16udo_DSP48_19
+Compiling module xil_defaultlib.DCT_mac_muladd_16udo(ID=1,NUM_ST...
+Compiling module xil_defaultlib.DCT_mac_muladd_16vdy_DSP48_20
+Compiling module xil_defaultlib.DCT_mac_muladd_16vdy(ID=1,NUM_ST...
+Compiling module xil_defaultlib.DCT_mac_muladd_16wdI_DSP48_21
+Compiling module xil_defaultlib.DCT_mac_muladd_16wdI(ID=1,NUM_ST...
+Compiling module xil_defaultlib.DCT_mac_muladd_16xdS_DSP48_22
+Compiling module xil_defaultlib.DCT_mac_muladd_16xdS(ID=1,NUM_ST...
+Compiling module xil_defaultlib.DCT_1D_1
+Compiling module xil_defaultlib.DCT_1D
+Compiling module xil_defaultlib.DCT_2D
+Compiling module xil_defaultlib.read_matrix
+Compiling module xil_defaultlib.write_matrix
+Compiling module xil_defaultlib.DCT
+Compiling module xil_defaultlib.AESL_automem_input_0
+Compiling module xil_defaultlib.AESL_automem_input_1
+Compiling module xil_defaultlib.AESL_automem_input_2
+Compiling module xil_defaultlib.AESL_automem_input_3
+Compiling module xil_defaultlib.AESL_automem_input_4
+Compiling module xil_defaultlib.AESL_automem_input_5
+Compiling module xil_defaultlib.AESL_automem_input_6
+Compiling module xil_defaultlib.AESL_automem_input_7
+Compiling module xil_defaultlib.AESL_automem_output_0
+Compiling module xil_defaultlib.AESL_automem_output_1
+Compiling module xil_defaultlib.AESL_automem_output_2
+Compiling module xil_defaultlib.AESL_automem_output_3
+Compiling module xil_defaultlib.AESL_automem_output_4
+Compiling module xil_defaultlib.AESL_automem_output_5
+Compiling module xil_defaultlib.AESL_automem_output_6
+Compiling module xil_defaultlib.AESL_automem_output_7
+Compiling module xil_defaultlib.apatb_DCT_top
+Compiling module work.glbl
+Built simulation snapshot DCT
